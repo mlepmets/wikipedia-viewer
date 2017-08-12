@@ -41,7 +41,6 @@ input {
 }
 input:focus {
   outline: none;
-  /*   box-shadow: 0px 0px 8px white; */
 }
 
 .input-hidden {
@@ -92,7 +91,7 @@ a.result-anchor:visited {
 h1 {
   margin: 5px;
 }
-.result p {
-  margin-left: 25px;
+p {
+  margin-left: 5px;
   line-height: 25px;
 }
