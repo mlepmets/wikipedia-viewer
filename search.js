@@ -27,10 +27,7 @@ const outputResults = results => {
     outputElement.innerHTML += result;
   }
 };
-// searchBar.addEventListener('keyup', e => {
-//   if (e.keyCode === 27 && searchBar.classList.contains('open')) {
-//   }
-// });
+
 
 function sendData(data) {
   return new Promise(function(resolve, reject) {
@@ -71,12 +68,6 @@ function sendData(data) {
     XHR.send(urlEncodedData);
   });
 }
-
-// searchBar.addEventListener('keypress', e => {
-//   if (e.keyCode === 13) {
-//     e.preventDefault();
-//   }
-// });
 
 searchBar.addEventListener('keyup', function(e) {
   if (searchBar.value != '' && e.keyCode === 13) {
